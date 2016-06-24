@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 echo 'Hello world!'
 echo '----> cpuinfo'
@@ -7,3 +7,5 @@ echo '----> uname'
 uname -a
 echo '----> lsb data'
 lsb_release -a
+echo '----> disc space'
+df -h
