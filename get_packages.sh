@@ -1,4 +1,6 @@
 #!/bin/bash
+export DEBIAN_FRONTEND=noninteractive
 echo '----> System update'
+
 apt-get update
-apt-get install openssh-server htop rsync ansible
+apt-get install -y openssh-server htop rsync ansible
