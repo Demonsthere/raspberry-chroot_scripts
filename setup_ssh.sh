@@ -22,7 +22,6 @@ EOF
 
 echo '----> set file permissions'
 chown -R pi:pi ${SSH_DIR}
-chmod g-w /home/pi
 chmod 700 ${SSH_DIR}
 chmod 400 ${SSH_DIR}/config
 chmod 644 ${SSH_DIR}/authorized_keys
